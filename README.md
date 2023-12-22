@@ -6,6 +6,7 @@
     from object_detection.utils import visualization_utils as viz_utils
     from object_detection.builders import model_builder
     from object_detection.utils import config_util
+    
     //Load pipeline config and build a detection model
     configs = config_util.get_configs_from_pipeline_file(files['PIPELINE_CONFIG'])
     detection_model = model_builder.build(model_config=configs['model'], is_training=False)
