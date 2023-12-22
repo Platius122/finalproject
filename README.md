@@ -25,6 +25,7 @@ lõi đa phần vẫn nằm ở cái bước opencv nó cứ xung đột với c
    ![image](https://github.com/Platius122/finalproject/assets/146935747/82d84a02-fd3f-4018-a13e-1426d9903aae)
    em cho chạy file tflite trong raspberry thì nó bị như này, bị lỗi ở biến count, lỗi chỉ nhận mảng 1 chiều mới chuyển thành int được
    em có thử đổi quá np.array thì lỗi là thành chỉ nhận int chứ không nhận array
+   file mặc định của người ta chạy được, em đổi cái file detect.tflite và đổi label theo hướng dẫn, sau đó là bị lỗi như này
 
 
 # Load model
