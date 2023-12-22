@@ -1,7 +1,24 @@
 # finalproject
+    labels = [{'name':'metal', 'id':1}, {'name':'plastic', 'id':2}, {'name':'paper', 'id':3}]
+model này em cho nhận diện 3 loại rác là lon nước, chai nhựa, với giấy
 # Anh Hưng cứu emmm
+1. Problem 1
 em train xong model rồi, load xong luôn rồi, nhưng mà lúc chạy để detect thử thì nó báo lỗi từ cái cv2
-![image](https://github.com/Platius122/finalproject/assets/146935747/4e82133e-987a-4789-b5c8-feeeaf462701)
+![image](https://github.com/Platius122/finalproject/assets/146935747/a801cfa8-3d46-4a2e-b821-0aa8602da3e8)
+em thử reinstall cái opecvn rồi nhưng vẫn lỗi
+em đang sợ là do cái pip 23.3.2 tại nó auto update lên
+em đang thử tạo một cái environment mới để chạy model thôi
+
+đây là lần train thứ 2 rồi
+lần 1 chạy được hết, nó nhận diện được luôn
+lần 2 này nó gãy từ cái chỗ này
+
+2. Problem 2
+Em đang không cho vào Raspberry được
+
+câu chuyện là cái tflite, anh thử install cái tflite trên máy tính rồi cho nó chạy thử ạ
+tflite là cái folder em để trên đầu á, nó kiểu một model riêng nhưng chuyên chạy cho mấy cái máy nhỏ
+lõi đa phần vẫn nằm ở cái bước opencv nó cứ xung đột với cái tensorflow, xung đột cả với python
 
 # Load model
     import os
