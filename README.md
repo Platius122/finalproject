@@ -20,6 +20,13 @@ câu chuyện là cái tflite, anh thử install cái tflite trên máy tính r�
 tflite là cái folder em để trên đầu á, nó kiểu một model riêng nhưng chuyên chạy cho mấy cái máy nhỏ
 lõi đa phần vẫn nằm ở cái bước opencv nó cứ xung đột với cái tensorflow, xung đột cả với python
 
+
+3. problem 3
+   ![image](https://github.com/Platius122/finalproject/assets/146935747/82d84a02-fd3f-4018-a13e-1426d9903aae)
+   em cho chạy file tflite trong raspberry thì nó bị như này, bị lỗi ở biến count, lỗi chỉ nhận mảng 1 chiều mới chuyển thành int được
+   em có thử đổi quá np.array thì lỗi là thành chỉ nhận int chứ không nhận array
+
+
 # Load model
     import os
     import tensorflow as tf
