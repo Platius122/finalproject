@@ -1,4 +1,8 @@
 # finalproject
+# Anh Hưng cứu emmm
+em train xong model rồi, load xong luôn rồi, nhưng mà lúc chạy để detect thử thì nó báo lỗi từ cái cv2
+![image](https://github.com/Platius122/finalproject/assets/146935747/4e82133e-987a-4789-b5c8-feeeaf462701)
+
 # Load model
     import os
     import tensorflow as tf
